@@ -16,8 +16,10 @@
   <div class="wrap">
     <a class="brand" href="index.html"><svg viewBox="0 0 1024 1024" aria-hidden="true"><rect width="1024" height="1024" rx="228" fill="#B9472F"/><rect x="310" y="310" width="140" height="480" rx="70" fill="#FBF6EF" transform="rotate(12.4 380 790)"/><rect x="574" y="310" width="140" height="480" rx="70" fill="#E8B04B" transform="rotate(-12.4 644 790)"/><circle cx="512" cy="742" r="40" fill="#FBF6EF"/></svg>Huddle</a>
     <nav class="site-nav" aria-label="Main">
+      <a href="features.html">Features</a>
+      <a href="guide.html">Get started</a>
+      <a href="security.html">Security</a>
       <a href="support.html" aria-current="page">Support</a>
-      <a href="privacy.html">Privacy</a>
     </nav>
   </div>
 </header>
@@ -25,7 +27,7 @@
 <main>
   <div class="wrap">
     <h1>Support</h1>
-    <p class="lede">Help with setting up your household, inviting your partner and keeping things in sync.</p>
+    <p class="lede">Help with setting up your household, inviting your partner and keeping things in sync. New to Huddle? Start with the <a href="guide.html">setup guide</a>.</p>
 
     <div class="card">
       <h2>Contact us</h2>
@@ -36,27 +38,27 @@
     <h2>Getting started</h2>
     <details>
       <summary>What do I need to use Huddle?</summary>
-      <p>An iPhone signed in to iCloud, with iCloud Drive turned on. Check in <strong>Settings → [your name] → iCloud</strong>. Each member of your household needs their own Apple device and iCloud account.</p>
+      <p>An iPhone or iPad with iOS or iPadOS 17 or later, signed in to iCloud. Check in <strong>Settings → [your name]</strong>. Each member of your household needs their own device and their own Apple Account.</p>
     </details>
     <details>
       <summary>How do I set up a household?</summary>
       <ol>
-        <li>Open Huddle and tap <strong>Create a household</strong>.</li>
-        <li>Give it a name and choose your currency.</li>
-        <li>Tap <strong>Continue</strong>. You're the household's creator.</li>
+        <li>Open Huddle and enter a <strong>Household name</strong>.</li>
+        <li>Choose the household's <strong>Currency</strong>. It can't be changed later.</li>
+        <li>Enter <strong>Your name</strong> and tap <strong>Create household</strong>. You're the household's owner.</li>
       </ol>
     </details>
     <details>
       <summary>How do I invite my partner?</summary>
       <ol>
-        <li>Go to <strong>Household</strong> and tap <strong>Invite member</strong>.</li>
-        <li>Send the invite with Messages, Mail or a copied link.</li>
-        <li>Your partner installs Huddle, opens the invite on their phone and taps <strong>Join household</strong>.</li>
+        <li>Go to the <strong>Household</strong> tab and tap <strong>Invite a member</strong>.</li>
+        <li>Send the invite with Messages, Mail or <strong>Copy Link</strong>.</li>
+        <li>Your partner installs Huddle, opens the link on their phone, enters their name and taps <strong>Continue</strong>.</li>
       </ol>
     </details>
     <details>
       <summary>How do I add an expense or income?</summary>
-      <p>Type the amount and what it's for in the bar at the bottom, for example <span class="num">126.40</span> groceries, and tap send. Or tap <strong>+</strong> to choose income or expense, a category, a date, a note and a receipt photo.</p>
+      <p>Type the amount and what it's for in the bar at the bottom of Activity, for example <span class="line">126.40 groceries</span>, and tap send. Start with <strong>+</strong> for income, like <span class="line">+3000 salary</span>, and add <span class="line">@sam</span> to record who paid. Or tap <strong>+</strong> next to the bar for the full form, with a date, category, note and who paid. <a href="guide.html#entries">More examples</a></p>
     </details>
 
     <h2>Syncing and sharing</h2>
@@ -64,18 +66,19 @@
       <summary>My partner's entries aren't showing up</summary>
       <ol>
         <li>Check both phones are online and signed in to iCloud.</li>
-        <li>Pull down on the activity feed to refresh.</li>
+        <li>Pull down on the activity feed to refresh, or tap <strong>Household → Sync now</strong>.</li>
         <li>Make sure your partner opened the invite on the iCloud account it was sent to.</li>
         <li>If it still doesn't sync, close Huddle completely and open it again.</li>
       </ol>
+      <p>An entry marked "Saved on this device. Waiting to sync." will send when you're back online.</p>
     </details>
     <details>
-      <summary>It says "iCloud account required"</summary>
-      <p>Sign in to iCloud in <strong>Settings</strong> and turn on <strong>iCloud Drive</strong>, then open Huddle again.</p>
+      <summary>It says "Can't connect to iCloud"</summary>
+      <p>Sign in to iCloud in <strong>Settings</strong>, then tap <strong>Try again</strong> in Huddle.</p>
     </details>
     <details>
       <summary>The invite link does nothing</summary>
-      <p>Install Huddle from the App Store first, then tap the invite link again.</p>
+      <p>Install Huddle first (from TestFlight during the beta), then tap the invite link again.</p>
     </details>
     <details>
       <summary>My iCloud storage is full</summary>
@@ -85,34 +88,56 @@
     <h2>Your household</h2>
     <details>
       <summary>How do I fix a mistake?</summary>
-      <p>Tap the entry and choose <strong>Correct amount</strong>. Huddle records the correction so both of you can see what changed. You can change the category, note or date any time.</p>
+      <p>Tap the entry, change the amount and tap <strong>Save</strong>. Huddle saves it as a correction, and the entry's history keeps the original. You can change the category, note or date any time. To remove an entry, tap <strong>Delete entry</strong>; you can still see it under <strong>Filter → Show deleted entries</strong>.</p>
+    </details>
+    <details>
+      <summary>An entry says "Needs review"</summary>
+      <p>Two of you changed the same amount at the same time, or one of you was offline. Both changes count until one of you taps the entry and chooses <strong>Keep</strong>, or enters the right amount.</p>
     </details>
     <details>
       <summary>How do I leave a household or remove someone?</summary>
-      <p>Go to <strong>Household → Members</strong>. Any member can leave; the creator can remove members.</p>
+      <p>Any member can leave in <strong>Household → Leave household</strong>. Their entries stay, marked as from a former member. The owner can remove members from <strong>Household → Members</strong>.</p>
     </details>
     <details>
       <summary>How do I delete our data?</summary>
-      <p>The household creator can delete the household in <strong>Household → Settings</strong>. This removes it from iCloud for everyone and can't be undone. Deleting the app alone doesn't delete the household.</p>
+      <p>The household's owner can delete the household from the <strong>Household</strong> tab. This removes it from iCloud for everyone and can't be undone, so export a CSV first (<strong>Household → Export entries</strong>) if you want a copy. Deleting the app alone doesn't delete the household.</p>
     </details>
     <details>
       <summary>Can my partner use Android or a computer?</summary>
-      <p>Not yet. Huddle currently works on iPhone. Android and web are on our roadmap.</p>
+      <p>Not yet. Huddle works on iPhone and iPad, with Mac coming next. Android and web are on our <a href="features.html#roadmap">roadmap</a>.</p>
     </details>
     <details>
       <summary>Does Huddle connect to my bank?</summary>
-      <p>No. You add entries yourself, which keeps Huddle simple and private. Read our <a href="privacy.html">privacy policy</a> for details.</p>
+      <p>No. You add entries yourself, which keeps Huddle simple and private. Read <a href="security.html">how Huddle protects your data</a> and our <a href="privacy.html">privacy policy</a>.</p>
     </details>
 
     <h2 id="beta">Join the beta</h2>
     <p>Huddle is in beta testing with households in New Zealand and beyond. To join as a pair, email us at <code>vvssoftwaresolutionslimited@gmail.com</code> and we'll send you a TestFlight invite.</p>
+    <p>Huddle works best tested in pairs: each of you on your own iPhone, signed in to iCloud with your own Apple Account. Download the <a href="media/huddle-beta-guide.pdf">beta guide (PDF)</a> or watch the <a href="index.html#tour">walkthrough video</a>.</p>
+
+    <h3>What we'd like you to try</h3>
+    <ol>
+      <li>Add an entry on one phone with Huddle open on both. It should appear on the other within about 10 seconds.</li>
+      <li>Turn on Airplane Mode, add three entries, then turn it off. All three should reach the other phone.</li>
+      <li>Both change the same entry to different amounts, one phone offline, then reconnect. It should wait under <strong>Needs review</strong> until one of you taps <strong>Keep</strong>.</li>
+      <li>Delete an entry, then find it under <strong>Filter → Show deleted entries</strong>.</li>
+      <li>Add a monthly repeating entry in Upcoming that starts today. It should be added once, on both phones.</li>
+      <li>Type entries your own way and tell us any line Huddle reads wrongly, exactly as typed.</li>
+      <li>The member who joined taps <strong>Household → Leave household</strong>, then the owner invites them again.</li>
+      <li>Delete Huddle and reinstall it. Your household should come back.</li>
+      <li>Try App lock, and Household+ (purchases in the beta are free).</li>
+    </ol>
+
+    <h3>Sending feedback</h3>
+    <p>Take a screenshot in Huddle and tap <strong>Share Beta Feedback</strong>, or use <strong>Send Beta Feedback</strong> in the TestFlight app. Say what you did and what you expected. If Huddle crashes, TestFlight asks whether to send a report; please say yes.</p>
+    <div class="note"><p><strong>About beta data.</strong> This is a test version. Export anything you want to keep (<strong>Household → Export entries</strong>), because beta households may not carry over to the first public version.</p></div>
   </div>
 </main>
 
 <footer class="site-footer">
   <div class="wrap">
     <span>© 2026 VVS Software Solutions Ltd</span>
-    <span><a href="support.html">Support</a> · <a href="privacy.html">Privacy policy</a></span>
+    <span><a href="features.html">Features</a> · <a href="guide.html">Get started</a> · <a href="security.html">Security</a> · <a href="support.html">Support</a> · <a href="privacy.html">Privacy policy</a></span>
   </div>
 </footer>
 </body>

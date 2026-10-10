@@ -16,8 +16,10 @@
   <div class="wrap">
     <a class="brand" href="index.html"><svg viewBox="0 0 1024 1024" aria-hidden="true"><rect width="1024" height="1024" rx="228" fill="#B9472F"/><rect x="310" y="310" width="140" height="480" rx="70" fill="#FBF6EF" transform="rotate(12.4 380 790)"/><rect x="574" y="310" width="140" height="480" rx="70" fill="#E8B04B" transform="rotate(-12.4 644 790)"/><circle cx="512" cy="742" r="40" fill="#FBF6EF"/></svg>Huddle</a>
     <nav class="site-nav" aria-label="Main">
+      <a href="features.html">Features</a>
+      <a href="guide.html">Get started</a>
+      <a href="security.html">Security</a>
       <a href="support.html">Support</a>
-      <a href="privacy.html" aria-current="page">Privacy</a>
     </nav>
   </div>
 </header>
@@ -45,12 +47,12 @@
       <li>your household's name and currency</li>
       <li>the names of household members, as shown in their iCloud or chosen display name</li>
       <li>income and expense entries: amounts, categories, dates, notes and who added or paid for them</li>
-      <li>receipt photos you choose to attach</li>
-      <li>categories, budgets, recurring entries and the history of corrections</li>
+      <li>categories and their monthly limits, repeating entries, and the history of corrections and deleted entries</li>
     </ul>
 
     <h2>Where it's stored</h2>
     <p>Huddle uses Apple's CloudKit service. Your household is stored in the iCloud account of the person who created it, and shared through Apple's iCloud sharing only with the members they invite. Each member's phone also keeps a copy so the app works offline.</p>
+    <p>Amounts, notes and names are stored as iCloud encrypted fields, which only household members' devices can read. Details such as dates and categories are regular iCloud fields so the app can sync and sort them. <a href="security.html">See exactly what's encrypted</a>.</p>
     <p>We don't run our own servers for Huddle, and we have no access to the data in your iCloud account. Apple provides iCloud storage under <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>. Your household's data counts towards the creator's iCloud storage.</p>
 
     <h2>What we don't do</h2>
@@ -63,7 +65,7 @@
 
     <h2>Face ID, notifications and crash reports</h2>
     <p><strong>Face ID or Touch ID</strong> lock is handled by iOS. Huddle only learns whether unlocking succeeded; your biometric data never leaves Apple's secure hardware.</p>
-    <p><strong>Notifications</strong> such as "Sarah added <span class="num">$126.40</span> to Groceries" are created on your device from your shared household data.</p>
+    <p><strong>Notifications</strong>, when Huddle adds them, will be created on your device from your shared household data, not sent from our servers.</p>
     <p><strong>Crash reports:</strong> if you've chosen to share analytics with app developers in your iPhone settings, Apple may send us anonymous crash and performance reports. These don't include your household's entries.</p>
 
     <h2>When you contact us</h2>
@@ -73,7 +75,7 @@
     <ul>
       <li><strong>Leave a household:</strong> any member can leave at any time. They lose access to its data.</li>
       <li><strong>Remove members:</strong> the household creator can remove members.</li>
-      <li><strong>Export:</strong> download your household's entries as a CSV file, where available in the app.</li>
+      <li><strong>Export:</strong> download your household's entries as a CSV file in <strong>Household → Export entries</strong>.</li>
       <li><strong>Delete:</strong> the household creator can delete the household, which removes it from iCloud for everyone. Deleting the app alone doesn't delete the household from iCloud.</li>
       <li>You can also manage Huddle's iCloud data in <strong>Settings → [your name] → iCloud → Manage Storage</strong>.</li>
     </ul>
@@ -92,7 +94,7 @@
 <footer class="site-footer">
   <div class="wrap">
     <span>© 2026 VVS Software Solutions Ltd</span>
-    <span><a href="support.html">Support</a> · <a href="privacy.html">Privacy policy</a></span>
+    <span><a href="features.html">Features</a> · <a href="guide.html">Get started</a> · <a href="security.html">Security</a> · <a href="support.html">Support</a> · <a href="privacy.html">Privacy policy</a></span>
   </div>
 </footer>
 </body>
