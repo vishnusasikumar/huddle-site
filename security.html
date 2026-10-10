@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Security — Huddle</title>
+<meta name="description" content="How Huddle protects your household's data: iCloud encrypted fields, no servers of its own, app lock, and an honest account of what isn't covered.">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&family=Plus+Jakarta+Sans:wght@600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><svg viewBox="0 0 1024 1024" aria-hidden="true"><rect width="1024" height="1024" rx="228" fill="#B9472F"/><rect x="310" y="310" width="140" height="480" rx="70" fill="#FBF6EF" transform="rotate(12.4 380 790)"/><rect x="574" y="310" width="140" height="480" rx="70" fill="#E8B04B" transform="rotate(-12.4 644 790)"/><circle cx="512" cy="742" r="40" fill="#FBF6EF"/></svg>Huddle</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="features.html">Features</a>
+      <a href="guide.html">Get started</a>
+      <a href="security.html" aria-current="page">Security</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <h1>How Huddle protects your data</h1>
+    <p class="lede">What Huddle protects, from whom, and what it doesn't. We'd rather tell you exactly than make broad claims.</p>
+
+    <div class="card">
+      <h2>In short</h2>
+      <ul>
+        <li>Huddle has no servers of its own. Your household lives in iCloud, shared only with the people you invite.</li>
+        <li>Amounts, notes and names are stored as iCloud encrypted fields, which we can't read.</li>
+        <li>Huddle never asks for your bank login.</li>
+        <li>No ads, analytics or tracking, and the app's logs never include amounts, notes or names.</li>
+        <li>Amounts are never overwritten, so the household's history can't be quietly changed.</li>
+      </ul>
+    </div>
+
+    <section class="section">
+      <h2>Where your data lives</h2>
+      <div class="table">
+        <table>
+          <thead><tr><th>What</th><th>How it's protected</th></tr></thead>
+          <tbody>
+            <tr><td>Amounts, corrections and their reasons, notes, currency, and household, category and member names. Category limits, and repeating entries' amounts and names</td><td>iCloud encrypted fields. They're encrypted on your device with keys in iCloud Keychain, and iCloud shares them with household members</td></tr>
+            <tr><td>Dates, whether an entry is income or an expense, which category and member it belongs to, who paid, repeating schedules and timestamps</td><td>Regular iCloud fields, under iCloud's standard data protection, so the app can sync and sort them</td></tr>
+            <tr><td>The household's sharing details: its name and members' Apple Account contact details</td><td>Apple's iCloud sharing, under iCloud's standard data protection</td></tr>
+            <tr><td>The copy on each phone that lets Huddle work offline</td><td>iOS Data Protection. It's unreadable until you first unlock your phone after a restart, and it's left out of device backups</td></tr>
+            <tr><td>CSV files you export</td><td>None. They go wherever you save or send them</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Who can see what</h2>
+      <ul>
+        <li><strong>Household members</strong> are trusted equally. Everyone can see, add, change and delete every entry. If the owner removes someone, they lose access the next time their phone syncs, but anything they've already seen or exported stays with them.</li>
+        <li><strong>Apple</strong> runs iCloud. Like any iCloud data, it can see regular fields and sharing details, but not encrypted fields without your iCloud Keychain keys.</li>
+        <li><strong>We</strong>, the makers of Huddle, have no servers and receive none of your household's data. We can't read your encrypted fields.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>On your phone</h2>
+      <ul>
+        <li><strong>App lock:</strong> require Face ID, Touch ID or your passcode, straight away or after 1 or 5 minutes. Turning it off needs you to unlock first.</li>
+        <li><strong>App switcher:</strong> Huddle covers its screen whenever it isn't the active app.</li>
+        <li><strong>Screen recording and mirroring:</strong> Huddle hides while the screen is being captured. This is on by default. Screenshots can't be blocked.</li>
+        <li><strong>Lost phone:</strong> sign in on a new device and your household comes back from iCloud.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>What Huddle doesn't claim</h2>
+      <p>Huddle isn't end-to-end encrypted as a whole, because the regular fields above aren't covered by your keys. It doesn't hold compliance certifications such as PCI. In the app, <strong>Household → How Huddle protects your data</strong> lists the same details as this page.</p>
+      <p>Some things are outside what Huddle can protect against: a household member acting against the household (they have full access by design), someone who has your phone unlocked or knows its passcode, and attacks on Apple's own infrastructure.</p>
+    </section>
+
+    <section class="section">
+      <h2>If something goes wrong</h2>
+      <ul>
+        <li><strong>If the owner deletes the household or their iCloud data,</strong> it's deleted for every member. Export a CSV if you want your own copy.</li>
+        <li><strong>If you lose your iCloud Keychain,</strong> for example during account recovery, your phone can't read the encrypted fields any more. Other members still can.</li>
+      </ul>
+      <p>Found a security problem? Email <a href="mailto:vvssoftwaresolutionslimited@gmail.com?subject=Huddle%20security">vvssoftwaresolutionslimited@gmail.com</a>. For how we handle personal information, read the <a href="privacy.html">privacy policy</a>.</p>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 VVS Software Solutions Ltd</span>
+    <span><a href="features.html">Features</a> · <a href="guide.html">Get started</a> · <a href="security.html">Security</a> · <a href="support.html">Support</a> · <a href="privacy.html">Privacy policy</a></span>
+  </div>
+</footer>
+</body>
+</html>

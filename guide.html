@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Get started — Huddle</title>
+<meta name="description" content="Set up Huddle in about five minutes: create a household, invite your partner, add entries, fix mistakes and set up repeating bills.">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&family=Plus+Jakarta+Sans:wght@600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><svg viewBox="0 0 1024 1024" aria-hidden="true"><rect width="1024" height="1024" rx="228" fill="#B9472F"/><rect x="310" y="310" width="140" height="480" rx="70" fill="#FBF6EF" transform="rotate(12.4 380 790)"/><rect x="574" y="310" width="140" height="480" rx="70" fill="#E8B04B" transform="rotate(-12.4 644 790)"/><circle cx="512" cy="742" r="40" fill="#FBF6EF"/></svg>Huddle</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="features.html">Features</a>
+      <a href="guide.html" aria-current="page">Get started</a>
+      <a href="security.html">Security</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <h1>Get started</h1>
+    <p class="lede">Setup takes about five minutes. One person creates the household and the other joins it.</p>
+
+    <figure class="video">
+      <video controls preload="none" playsinline poster="media/walkthrough-poster.jpg" aria-label="Huddle walkthrough video">
+        <source src="media/huddle-walkthrough.mp4" type="video/mp4">
+        <a href="media/huddle-walkthrough.mp4">Download the walkthrough video</a>
+      </video>
+      <figcaption>Prefer to watch? This tour covers everything on this page in under three minutes. The screens in this guide come from a demo household that doesn't sync, so they say "Local preview" where your app shows its sync status.</figcaption>
+    </figure>
+
+    <nav class="on-this-page" aria-label="On this page">
+      <a href="#need">What you need</a>
+      <a href="#setup">Set up</a>
+      <a href="#entries">Add entries</a>
+      <a href="#feed">The feed</a>
+      <a href="#mistakes">Fix mistakes</a>
+      <a href="#repeating">Repeating entries</a>
+      <a href="#categories">Categories</a>
+      <a href="#household">Household tab</a>
+    </nav>
+
+    <section class="section" id="need">
+      <h2>What you need</h2>
+      <ul>
+        <li>An iPhone or iPad for each person, with iOS or iPadOS 17 or later.</li>
+        <li>Each person signed in to iCloud with their own Apple Account. To check, go to <strong>Settings → [your name]</strong>. If you see "Sign in to your iPhone", sign in first.</li>
+      </ul>
+      <p>Huddle keeps your household in iCloud, so it has no account or password of its own.</p>
+    </section>
+
+    <section class="section" id="setup">
+      <h2>Set up your household</h2>
+      <h3>1. Install Huddle (both of you)</h3>
+      <p>Huddle is in beta on TestFlight. <a href="support.html#beta">Ask for an invite</a>, open it on your iPhone, then tap <strong>Accept</strong> and <strong>Install</strong>.</p>
+
+      <div class="with-shot">
+        <div>
+          <h3>2. Create the household (one person)</h3>
+          <ol>
+            <li>Enter a <strong>Household name</strong>, for example <em>The Smith House</em>.</li>
+            <li>Pick the household's <strong>Currency</strong>. It can't be changed later.</li>
+            <li>Enter <strong>Your name</strong>. Members see it next to the entries you add.</li>
+            <li>Tap <strong>Create household</strong>.</li>
+          </ol>
+          <p class="muted">The household belongs to the person who creates it, and its data counts towards their iCloud storage. Day to day, everyone in it has the same access.</p>
+        </div>
+        <figure><img class="shot" src="images/welcome.jpg" width="540" height="1170" loading="lazy" alt="The setup screen with the household name, currency and your name"></figure>
+      </div>
+      <div class="with-shot">
+        <div>
+          <h3>3. Invite your partner</h3>
+          <ol>
+            <li>Open the <strong>Household</strong> tab and tap <strong>Invite a member</strong>.</li>
+            <li>Send the link with Messages, Mail or <strong>Copy Link</strong>.</li>
+          </ol>
+          <p class="muted">Huddle is free for two people. Inviting a third needs Household+.</p>
+
+          <h3>4. Your partner joins</h3>
+          <ol>
+            <li>With Huddle installed, open the invitation link on your iPhone or iPad.</li>
+            <li>Confirm you want to open it in Huddle. You'll see "Joining the household…".</li>
+            <li>Enter <strong>your name</strong> and tap <strong>Continue</strong>.</li>
+          </ol>
+          <p>The shared feed appears, with anything already added.</p>
+        </div>
+        <figure><img class="shot" src="images/household.jpg" width="540" height="1170" loading="lazy" alt="The Household tab with the household name, currency, time zone and members"></figure>
+      </div>
+      <div class="note"><p><strong>Not seeing the household?</strong> Make sure you opened the link on a device signed in to the iCloud account the invitation was sent to, then pull down on the feed to refresh.</p></div>
+    </section>
+
+    <section class="section" id="entries">
+      <h2>Add entries</h2>
+      <p>On the <strong>Activity</strong> tab, type into the bar at the bottom the way you'd send a message: an amount and a category, in any order. Huddle shows how it reads the line before you tap send.</p>
+      <div class="table">
+        <table>
+          <thead><tr><th>You type</th><th>Huddle adds</th></tr></thead>
+          <tbody>
+            <tr><td><span class="line">126.40 groceries</span></td><td>An expense of <span class="num">$126.40</span> in Groceries</td></tr>
+            <tr><td><span class="line">groceries 126.40 weekly shop</span></td><td>The same, with the note "weekly shop"</td></tr>
+            <tr><td><span class="line">+3000 salary</span></td><td>Income of <span class="num">$3,000.00</span>. A + means income; an income category such as Salary does too.</td></tr>
+            <tr><td><span class="line">groc 54.20</span></td><td>An expense in Groceries. Partial or singular names like <em>groc</em> or <em>grocery</em> work.</td></tr>
+            <tr><td><span class="line">126.40 groceries @sam</span></td><td>An expense in Groceries that Sam paid</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="with-shot">
+        <div>
+          <p>Anything Huddle doesn't recognise as the amount, category or payer becomes the note. If it can't find a category, the entry goes under "No category" and you can choose one later.</p>
+          <p>For a different date or a longer note, tap <strong>+</strong> and choose <strong>Add expense</strong> or <strong>Add income</strong>. The form also lets you set who paid, or mark it as a personal expense.</p>
+        </div>
+        <figure><img class="shot" src="images/quick.jpg" width="540" height="1170" loading="lazy" alt="Typing 126.40 groceries weekly shop, with the preview above the bar"></figure>
+      </div>
+    </section>
+
+    <section class="section" id="feed">
+      <div class="with-shot">
+        <div>
+          <h2>Read the feed and totals</h2>
+          <p>The top of the Activity tab shows the month's <strong>household net</strong>, with income and expenses beneath it. Use the arrows to see earlier months.</p>
+          <p><strong>Who paid</strong> appears once an entry says who paid. It shows each person's share of the household's spending, and personal spending separately.</p>
+          <p><strong>Available to spend</strong>, above the entry bar, is the month's net plus the repeating income and bills still due this month.</p>
+        </div>
+        <figure><img class="shot" src="images/feed.jpg" width="540" height="1170" loading="lazy" alt="The month's household net, income and expenses, with who paid"></figure>
+      </div>
+    </section>
+
+    <section class="section" id="mistakes">
+      <div class="with-shot">
+        <div>
+          <h2>Fix mistakes</h2>
+          <h3>Change an amount</h3>
+          <p>Tap the entry, change the amount and tap <strong>Save</strong>. It's saved as a correction: the feed shows <em>Corrected from <span class="num">$18.50</span></em>, and the original stays in the entry's history.</p>
+          <h3>Delete an entry</h3>
+          <p>Tap the entry, then <strong>Delete entry</strong>. It leaves the totals, and you can still see it under <strong>Filter → Show deleted entries</strong>.</p>
+          <h3>Needs review</h3>
+          <p>If you both change the same entry at once, or one of you was offline, both changes count and the entry waits under <strong>Needs review</strong>. Either of you taps it and chooses <strong>Keep</strong>, or enters the right amount.</p>
+        </div>
+        <figure><img class="shot" src="images/review.jpg" width="540" height="1170" loading="lazy" alt="Editing an entry that was corrected on two devices at once, with Keep $130.00"></figure>
+      </div>
+    </section>
+
+    <section class="section" id="repeating">
+      <div class="with-shot">
+        <div>
+          <h2>Repeating entries</h2>
+          <p>Open the <strong>Upcoming</strong> tab and tap <strong>+</strong>. Enter the amount, a name such as Rent, how often it repeats and when it starts. You can also set <strong>Repeat</strong> when adding an entry with the full form.</p>
+          <p>Huddle adds a real entry on each date, once, even with two phones in different time zones. Upcoming lists what's due in the next 30 days. To end one, open it and tap <strong>Stop repeating</strong>; entries it has already added stay.</p>
+        </div>
+        <figure><img class="shot" src="images/repeat-form.jpg" width="540" height="1170" loading="lazy" alt="A new repeating entry: Rent, 1,800, every month"></figure>
+      </div>
+    </section>
+
+    <section class="section" id="categories">
+      <div class="with-shot">
+        <div>
+          <h2>Categories</h2>
+          <p>In the <strong>Categories</strong> tab you can add your own categories, rename one or archive one you don't use. Past entries keep their category. Give a category a <strong>monthly limit</strong> to see how much of it the household has used this month.</p>
+        </div>
+        <figure><img class="shot" src="images/categories.jpg" width="540" height="1170" loading="lazy" alt="The Categories tab with a monthly limit on Groceries"></figure>
+      </div>
+    </section>
+
+    <section class="section" id="household">
+      <div class="with-shot">
+        <div>
+          <h2>The Household tab</h2>
+          <ul>
+            <li><strong>Members:</strong> who's in the household and when they joined. The owner can remove someone; anyone else can <strong>Leave household</strong>. Their entries stay, marked as from a former member.</li>
+            <li><strong>Sync:</strong> whether everything has reached iCloud. <strong>Sync now</strong> checks straight away.</li>
+            <li><strong>App lock:</strong> require Face ID, Touch ID or your passcode, and choose how soon Huddle locks.</li>
+            <li><strong>How Huddle protects your data:</strong> what's encrypted, what isn't and where it's stored.</li>
+            <li><strong>Export entries:</strong> every entry as a CSV file.</li>
+            <li><strong>Household+:</strong> invite more than two members.</li>
+          </ul>
+          <p>That's it. Add entries as they happen and check the feed together. If something isn't working, see <a href="support.html">Support</a>.</p>
+        </div>
+        <figure><img class="shot" src="images/privacy.jpg" width="540" height="1170" loading="lazy" alt="The Household tab with sync status, app lock, how Huddle protects your data and export"></figure>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 VVS Software Solutions Ltd</span>
+    <span><a href="features.html">Features</a> · <a href="guide.html">Get started</a> · <a href="security.html">Security</a> · <a href="support.html">Support</a> · <a href="privacy.html">Privacy policy</a></span>
+  </div>
+</footer>
+</body>
+</html>

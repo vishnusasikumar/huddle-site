@@ -16,8 +16,10 @@
   <div class="wrap">
     <a class="brand" href="index.html"><svg viewBox="0 0 1024 1024" aria-hidden="true"><rect width="1024" height="1024" rx="228" fill="#B9472F"/><rect x="310" y="310" width="140" height="480" rx="70" fill="#FBF6EF" transform="rotate(12.4 380 790)"/><rect x="574" y="310" width="140" height="480" rx="70" fill="#E8B04B" transform="rotate(-12.4 644 790)"/><circle cx="512" cy="742" r="40" fill="#FBF6EF"/></svg>Huddle</a>
     <nav class="site-nav" aria-label="Main">
+      <a href="features.html">Features</a>
+      <a href="guide.html">Get started</a>
+      <a href="security.html">Security</a>
       <a href="support.html">Support</a>
-      <a href="privacy.html">Privacy</a>
     </nav>
   </div>
 </header>
@@ -28,15 +30,16 @@
       <div>
         <h1>One household. One money picture.</h1>
         <p class="lede">Huddle is a shared money app for households. Add an expense on your phone and your partner sees it straight away. No bank logins, no budgeting rules to learn.</p>
-        <!-- Replace with your App Store link once Huddle is live. -->
-        <p><a class="badge" href="support.html#beta">Coming soon to the App Store</a></p>
+        <!-- Once Huddle is live, point the first button at the App Store and change the line below it. -->
+        <p class="actions"><a class="badge" href="support.html#beta">Join the beta</a> <a class="badge secondary" href="features.html">See what it does</a></p>
+        <p class="muted">For iPhone and iPad. Coming soon to the App Store.</p>
       </div>
       <svg viewBox="0 0 1024 1024" role="img" aria-label="Huddle app icon"><rect width="1024" height="1024" rx="228" fill="#B9472F"/><rect x="310" y="310" width="140" height="480" rx="70" fill="#FBF6EF" transform="rotate(12.4 380 790)"/><rect x="574" y="310" width="140" height="480" rx="70" fill="#E8B04B" transform="rotate(-12.4 644 790)"/><circle cx="512" cy="742" r="40" fill="#FBF6EF"/></svg>
     </div>
 
     <div class="feed" aria-label="Example household activity">
       <div class="feed-row"><span>Sarah added to Groceries<small>Today, 9:42 AM</small></span><span class="num">−$126.40</span></div>
-      <div class="feed-row"><span>John added to Fuel<small>Today, 8:15 AM</small></span><span class="num">−$80.00</span></div>
+      <div class="feed-row"><span>John added to Transport<small>Today, 8:15 AM</small></span><span class="num">−$80.00</span></div>
       <div class="feed-row"><span>John added Salary<small>Yesterday</small></span><span class="num in">+$3,850.00</span></div>
     </div>
 
@@ -46,13 +49,121 @@
       <li><strong>Who paid, without keeping score</strong><span>See each person's share of shared costs.</span></li>
       <li><strong>Private by design</strong><span>Stored in your iCloud and shared only with people you invite.</span></li>
     </ul>
+
+    <section class="section">
+      <p class="eyebrow">Why Huddle</p>
+      <h2>Money you share, kept simple</h2>
+      <p>Most budgeting apps ask you to connect your bank, learn a method, or both. Often one person ends up using the app and the other stops. Huddle sticks to what matters: either of you can record what happened, and you both see the same picture.</p>
+      <ul>
+        <li><strong>Adding money feels like sending a message.</strong> Type an amount and a category, and it's in.</li>
+        <li><strong>You both see changes straight away.</strong> Your partner's phone updates within moments.</li>
+        <li><strong>No bank login.</strong> You record what actually happened, so your bank details stay with your bank.</li>
+        <li><strong>Neutral about spending.</strong> An entry is information, not a grade. Spending shows in plain ink, never red.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">How it works</p>
+      <h2>Set up in about five minutes</h2>
+      <ol class="steps">
+        <li><strong>One of you creates the household</strong><span>Give it a name, choose the currency and add your name.</span></li>
+        <li><strong>Invite your partner</strong><span>Send a link with Messages, Mail or any app. It uses Apple's iCloud sharing, so only people you invite can join.</span></li>
+        <li><strong>Add entries as they happen</strong><span>Type them in like a text message. They show up on both phones, and the month's totals update.</span></li>
+      </ol>
+      <p><a href="guide.html">Read the full setup guide</a></p>
+    </section>
+
+    <section class="section" id="tour">
+      <p class="eyebrow">See it in action</p>
+      <h2>A three-minute tour</h2>
+      <p class="section-lede">Setting up a household, adding entries, repeating bills, fixing mistakes and the Household tab, start to finish.</p>
+      <figure class="video">
+        <video controls preload="none" playsinline poster="media/walkthrough-poster.jpg" aria-label="Huddle walkthrough video">
+          <source src="media/huddle-walkthrough.mp4" type="video/mp4">
+          <a href="media/huddle-walkthrough.mp4">Download the walkthrough video</a>
+        </video>
+        <figcaption>Recorded with a demo household that doesn't sync, so it says "Local preview" where your app shows its sync status.</figcaption>
+      </figure>
+      <div class="screens" style="margin-top: 32px">
+        <figure><img class="shot" src="images/quick.jpg" width="540" height="1170" loading="lazy" alt="Typing 126.40 groceries weekly shop, with Huddle's preview of the entry above the bar"><figcaption>Quick entry</figcaption></figure>
+        <figure><img class="shot" src="images/feed.jpg" width="540" height="1170" loading="lazy" alt="The Activity tab showing the month's household net, income, expenses and who paid"><figcaption>Monthly totals and who paid</figcaption></figure>
+        <figure><img class="shot" src="images/upcoming.jpg" width="540" height="1170" loading="lazy" alt="The Upcoming tab with available to spend and a monthly rent entry"><figcaption>Upcoming bills</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">Quick entry</p>
+      <h2>Type it the way you'd text it</h2>
+      <p class="section-lede">Huddle reads the amount, category, note and who paid from one line, and shows you how it read it before you add it.</p>
+      <div class="table">
+        <table>
+          <thead><tr><th>You type</th><th>Huddle adds</th></tr></thead>
+          <tbody>
+            <tr><td><span class="line">126.40 groceries weekly shop</span></td><td>An expense of <span class="num">$126.40</span> in Groceries, with the note "weekly shop"</td></tr>
+            <tr><td><span class="line">+3000 salary</span></td><td>Income of <span class="num">$3,000.00</span> in Salary. A + means income.</td></tr>
+            <tr><td><span class="line">groc 54.20</span></td><td>An expense in Groceries. A few letters of a category are enough.</td></tr>
+            <tr><td><span class="line">126.40 groceries @sam</span></td><td>An expense in Groceries that Sam paid</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">Nothing quietly overwritten</p>
+      <h2>A shared history you can both trust</h2>
+      <p>When an amount changes, Huddle saves a correction rather than overwriting it. Each entry keeps its original amount and every change, and a deleted entry leaves the totals but stays in the history. If you both change the same entry at once, it waits under <strong>Needs review</strong> until one of you checks it.</p>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">Privacy</p>
+      <h2>Private by design</h2>
+      <p>Huddle has no servers of its own. Your household lives in the iCloud account of the person who created it, shared only with the people they invite. Amounts, notes and names are stored as iCloud encrypted fields. There are no ads, no analytics and no tracking.</p>
+      <p><a href="security.html">How Huddle protects your data</a></p>
+    </section>
+
+    <section class="section" id="pricing">
+      <p class="eyebrow">Pricing</p>
+      <h2>Free for two</h2>
+      <p class="section-lede">Huddle is free for a household of two. The shared feed will always be free, because it's what keeps a household using the app.</p>
+      <div class="plans">
+        <div class="plan">
+          <h3>Huddle</h3>
+          <p class="price">Free</p>
+          <ul>
+            <li>One household, two members</li>
+            <li>The shared feed and quick entry</li>
+            <li>Categories, monthly limits and repeating entries</li>
+            <li>Corrections, history and CSV export</li>
+          </ul>
+        </div>
+        <div class="plan">
+          <h3>Household+</h3>
+          <p class="price">US$1.99 <small>a month</small></p>
+          <p class="muted">or US$14.99 a year</p>
+          <ul>
+            <li>Everything in Huddle</li>
+            <li>Invite more than two members</li>
+            <li>Paid by the household's owner, shared through Family Sharing</li>
+          </ul>
+        </div>
+      </div>
+      <p class="muted">Household+ is free to try during the beta.</p>
+    </section>
+
+    <section class="section">
+      <div class="card cta">
+        <h2>Try Huddle with your household</h2>
+        <p>Huddle is in beta on TestFlight. Join as a pair and help shape it.</p>
+        <p class="actions"><a class="badge" href="support.html#beta">Join the beta</a></p>
+      </div>
+    </section>
   </div>
 </main>
 
 <footer class="site-footer">
   <div class="wrap">
     <span>© 2026 VVS Software Solutions Ltd</span>
-    <span><a href="support.html">Support</a> · <a href="privacy.html">Privacy policy</a></span>
+    <span><a href="features.html">Features</a> · <a href="guide.html">Get started</a> · <a href="security.html">Security</a> · <a href="support.html">Support</a> · <a href="privacy.html">Privacy policy</a></span>
   </div>
 </footer>
 </body>
